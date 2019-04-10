@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 
     uint32_t val = std::stoi(ips);
 
-    std::cout << val << std::endl; //shows ip without .
+    std::cout << val << std::endl; //shows ip without .'s
 
 
 
