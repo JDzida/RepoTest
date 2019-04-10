@@ -15,13 +15,13 @@ int main(int argc, char *argv[])
     QString ad = entries.at(0).ip().toString();
     std::string ips = ad.toUtf8().constData();
 
-    std::cout << ips << std::endl;
+    std::cout << ips << std::endl; //shows my ip address
 
     ips.erase(std::remove(ips.begin(), ips.end(), '.'), ips.end());
 
     uint32_t val = std::stoi(ips);
 
-    std::cout << val << std::endl;
+    std::cout << val << std::endl; //shows ip without .
 
 
 
